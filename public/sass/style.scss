@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+$font: 'Roboto Mono', sans-serif;
+
+* { padding: 0; margin: 0; }
+body { font-family: $font; font-size: 14px; background: #efeff8; }
+
+#auth-form {
+  position: absolute;
+  width: 100%; height: 100%;
+  display: flex; justify-content: center; align-items: center;
+  #wrap {
+    border: 1px solid #ddd;
+    background: #fff;
+    width: 300px;
+    padding: 20px;
+    display: flex; flex-direction: column;
+    .title { margin: 0 0 20px 0; }
+    input, button {
+      font-family: $font;
+      padding: 15px;
+      outline: none; border: 1px solid #303030;
+      margin: 10px 0;
+    }
+    .login, .register {
+      margin: 40px 0 0 0;
+      color: #000;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="/style.css")
+    title Register
+  body
+    #auth-form
+      form(action="/login", method="post" id="wrap")
+        h2.title REGISTER
+        input(type="text", name="username" placeholder="Username")
+        input(type="email", name="email" placeholder="Email")
+        input(type="password", name="password" placeholder="Password")
+        button(type="submit") Register
+        a(href="/" class="login") LOGIN
