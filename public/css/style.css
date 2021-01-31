@@ -10,6 +10,17 @@ body {
   background: #efeff8;
 }
 
+#nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#nav a {
+  margin: 0 40px 0 0;
+}
+
 #auth-form {
   position: absolute;
   width: 100%;
@@ -39,6 +50,13 @@ body {
 #auth-form #wrap .login, #auth-form #wrap .register {
   margin: 40px 0 0 0;
   color: #000;
+}
+
+#home {
+  width: 100%;
+}
+#home #wrap {
+  margin: 0 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
